@@ -71,3 +71,70 @@ body {
     width: 100%;
     border-radius: 10px;
 }
+
+/* * 3. Card Content and Typography 
+ */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem; /* Space between content elements */
+}
+
+.tag {
+    background-color: var(--clr-yellow);
+    color: var(--clr-gray-950);
+    font-weight: 800;
+    font-size: 0.875rem; /* 14px */
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    align-self: flex-start; /* Makes the background only wrap the text */
+}
+
+.publish-date {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 500;
+    color: var(--clr-gray-950);
+}
+
+.card-title {
+    color: var(--clr-gray-950);
+    font-size: 1.5rem; /* 24px */
+    font-weight: 800;
+    text-decoration: none; /* Remove underline from anchor tag */
+    line-height: 1.5;
+}
+
+.card-description {
+    color: var(--clr-gray-500);
+    font-size: 1rem; /* 16px - Base font size as per style guide */
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* * Interactive State 2: Title Hover/Focus 
+ * Changes the color of the link 
+ */
+.card-title:hover,
+.card-title:focus {
+    color: var(--clr-yellow);
+    outline: none; /* Remove default focus outline if needed, but ensure visibility */
+}
+
+/* * 4. Author Profile 
+ */
+.author-profile {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.author-avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.author-name {
+    font-weight: 800;
+    font-size: 0.875rem; /* 14px */
+    color: var(--clr-gray-950);
+}
