@@ -42,7 +42,7 @@ Users should be able to:
 - Flexbox for layout (e.g., centering the card, aligning the author profile)
 - Figtree Font from Google Fonts (Weights 500 and 800)
 - Git
-- [GitHub Pages](https://reactjs.org/) - Deployment/Hosting
+- [GitHub Pages](https://pages.github.com/) - Deployment/Hosting
 
 ### What I learned
 
