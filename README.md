@@ -14,7 +14,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -41,7 +40,7 @@ Users should be able to:
 - CSS custom properties (Variables) for colors
 - Flexbox for layout (e.g., centering the card, aligning the author profile)
 - Figtree Font from Google Fonts (Weights 500 and 800)
-- Git
+- Git (Version control)
 - [GitHub Pages](https://pages.github.com/) - Deployment/Hosting
 
 ### What I learned
