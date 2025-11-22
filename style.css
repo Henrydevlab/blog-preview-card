@@ -37,3 +37,37 @@ body {
     bottom: 0.5rem;
     width: 100%;
 }
+
+/* * 2. Blog Card Structure 
+ */
+.blog-card {
+    background-color: var(--clr-white);
+    max-width: 384px; /* Card width from desktop design */
+    border: 1px solid var(--clr-gray-950);
+    border-radius: 20px;
+    padding: 1.5rem; /* 24px padding */
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+    /* Default box shadow: creates a black border and a yellow shadow */
+    box-shadow: 8px 8px 0px 0px var(--clr-gray-950); 
+    
+    /* Add a transition for the hover effect */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* * Interactive State 1: Card Hover/Focus 
+ * Changes the shadow and lifts the card 
+ */
+.blog-card:hover,
+.blog-card:focus-within {
+    box-shadow: 16px 16px 0px 0px var(--clr-gray-950);
+    transform: translate(-4px, -4px); /* Slight lift */
+    cursor: pointer;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+}
